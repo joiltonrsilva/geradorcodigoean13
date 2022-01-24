@@ -1,0 +1,1 @@
+#from fncs.gerador import GeradorCodBarras

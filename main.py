@@ -1,9 +1,10 @@
+#conding: utf-8
 __author__ = "Joilton R. Silva"
 
 #from gui.mainui import *
-if __name__ == '__main__':
 
-    print("---- PROGRAMA DE GERADOR DE CÓDIGO DE BARRAS EAN-13 P/ PRODUTOS PESO ----")
+if __name__ == '__main__':
+    print("---- PROGRAMA DE GERADOR DE NUMEROS P/ CÓDIGO DE BARRAS EAN-13 NOS PRODUTOS PESO ----")
     obj = GeradorCodBarras()
     digit_value = input("DIGITE O CÓDIGO DO PRODUTO NO SISTEMA:")
     obj.entry_codproduto = digit_value

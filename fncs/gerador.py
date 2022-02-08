@@ -1,3 +1,4 @@
+__author__="Joilton Ribeiro da Silva"
 #Criando a Classe GeradorCodBarras:
 class GeradorCodBarras():
     # Definimos o Construtor da Classe:
@@ -44,4 +45,12 @@ class GeradorCodBarras():
 
         # concatenação de valores com os valores inciais + digito verificador:
         self._res_valid = int(self._codigo_inicial + str(self._d_verificador))
-
+        
+        # saída dos valores finais:
+        self._entry_cod = self._res_valid
+#-----------------------------------------------------------
+'''print("---- PROGRAMA DE GERADOR DE CÓDIGO DE BARRAS EAN-13 P/ PRODUTOS PESO ----")
+obj = GeradorCodBarras()
+digit_value = input("DIGITE O CÓDIGO DO PRODUTO NO SISTEMA:")
+obj.entry_codproduto = digit_value
+print("O CÓDIGO DE BARRAS GERADO É:", obj.entry_codproduto)'''

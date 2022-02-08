@@ -1,0 +1,28 @@
+<MainWindow@BoxLayout>:
+    orientation: "vertical"
+    
+    Label:
+        text: "DIGITE O CÓDIGO DO PRODUTO NO SISTEMA:"
+        font_size:35
+    TextInput:
+        id:entrada_id
+        font_size:50
+    Button:
+        text:"GERAR"
+        font_size:30
+        on_press: root.gerar()
+        background_color: (0,0,1,1)
+    Label:
+        text: "CÓDIGO GERADO É:"
+        font_size:30
+    Label:
+        id: res_codbarras
+        text: "CODIGO DE BARRAS"
+        font_size:50
+    Button:
+        text:"LIMPAR"
+        font_size:30
+        on_press: root.limpar()
+        background_color: (0,1,1,1)
+
+MainWindow:
